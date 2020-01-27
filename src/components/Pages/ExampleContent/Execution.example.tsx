@@ -45,7 +45,7 @@ $ ...'
                         <CodeMirror
                             value='$ atomicswap --use-base initiate [address] [amount]
 $ # Will execute an initiate for the base currency
-$ atomicswap --use-base initiate [address] [amount]
+$ atomicswap --use-swap initiate [address] [amount]
 $ # Will execute an initiate for the swap currency'
                             options={{
                                 mode: 'shell',

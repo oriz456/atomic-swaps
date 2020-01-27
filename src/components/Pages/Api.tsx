@@ -21,7 +21,7 @@ export type ApiState = {
 export class Api extends Component<ApiProps, ApiState> {
     public constructor(props: any) {
         super(props);
-        this.state = { active: 0 };
+        this.state = { active: 10 };
     }
 
     public scrollEvent(e: any) {
