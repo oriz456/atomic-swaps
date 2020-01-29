@@ -8,9 +8,9 @@
 [![Build Status](https://travis-ci.org/DiviProject/atomic-swaps.svg?branch=master)](https://travis-ci.org/DiviProject/atomic-swaps)
 [![codecov](https://codecov.io/gh/DiviProject/atomic-swaps/branch/master/graph/badge.svg)](https://codecov.io/gh/DiviProject/atomic-swaps)
 
-#### On chain atomic swaps for Divi, Bitcoin and other cryptocurrencies with gRPC support.
+#### On chain atomic swaps for DIVI, Bitcoin and other cryptocurrencies with gRPC support.
 
-Based off of the original [Atomic Swap implementation by Decred](https://github.com/decred/atomicswap). Divi has created a production ready Atomic Swap implementation that is gRPC and HTTP enabled. This enables Atomic Swaps to be workable with mobile and web applications.
+Based off of the original [Atomic Swap implementation by Decred](https://github.com/decred/atomicswap), Divi has created a production ready Atomic Swap implementation that is gRPC and HTTP enabled. This enables Atomic Swaps to be workable with mobile and web applications.
 
 ## Compiling from source
 
@@ -48,7 +48,7 @@ docker attach atomicswaps
 ```bash
 $ atomicswap --help
 
-A fast and easy way to do atomic swaps for Divi and Bitcoin. Learn more at https://github.com/DiviProject/atomic-swaps
+A fast and easy way to perform atomic swaps for DIVI and Bitcoin. Learn more at https://github.com/DiviProject/atomic-swaps
 
 Usage:
   atomicswap [flags]
@@ -139,7 +139,7 @@ You can now run JSON RPC HTTP requests to the server. Please refer to `API.md` t
 ### Testing
 
 Running `go test` will cover unit tests for the project.
-Keep in mind that in order to run `regtest` nodes. It's best that you use a shared Docker volume.
+Keep in mind that in order to run `regtest` nodes, it's best that you use a shared Docker volume.
 
 ```bash
 # Unix
@@ -155,7 +155,7 @@ sh bin/regtest.divi.sh
 sh bin/regtest.bitcoin.sh
 ```
 
-With two functional regtest nodes working. In order to test both command line and http functionality. You'll need Node.js.
+With two functional regtest nodes working, in order to test both command line and http functionality, you'll need Node.js.
 
 ```bash
 cd test
